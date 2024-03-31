@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build:dev": "node ./utils/build.js dev",
+    "build:prod": "node ./utils/build.js prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "iconv-lite": "^0.6.3",
+    "inquirer": "^9.2.17",
+    "uniapp-build": "^1.1.4"
+  }
+}
